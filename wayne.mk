@@ -53,3 +53,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/wayne-common/wayne-common-vendor.mk)
+
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0-service.xiaomi_sdm660.qti
